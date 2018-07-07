@@ -1,10 +1,23 @@
 <html>
 <head>
     <title>404班论坛(测试版)</title>
-    <table id="Bq"><tr><td id="stWrap"></td></tr></table><script src="//www.speedtest.cn/assets/js/api/speedtest.light_nobg.min.js"></script>
+	<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/EaselJS/1.0.2/easeljs.min.js"></script>
+	<script>
+	//创建一个阶段，得到一个参考的画布
+    stage = new createjs.Stage("demoCanvas");
+    //创建一个形状的显示对象
+    circle = new createjs.Shape();
+    circle.graphics.beginFill("red").drawCircle(0, 0, 40);
+    //形状实例的设置位置
+    circle.x = circle.y = 50;
+    //添加形状实例到舞台显示列表
+    stage.addChild(circle);
+    //更新阶段将呈现下一帧
+    stage.update();
+	</script>
 </head>
 <body>
-    <h1>404班论坛<h1>
-    
+    <center>维护中。7月24日开放<br /></center>
 </body>
 </html>
