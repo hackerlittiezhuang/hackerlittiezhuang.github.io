@@ -2,3 +2,14 @@
 {
     width:60%;
 }
+#guang
+{
+    -webkit-animation: guang1 5s; /* Safari 与 Chrome */
+}
+@-webkit-keyframes guang1 /* Safari 与 Chrome */
+{
+    0%   {fill: black;}
+    25%  {fill: yellow;}
+    50%  {fill: blue;}
+    100% {fill: black;}
+}
