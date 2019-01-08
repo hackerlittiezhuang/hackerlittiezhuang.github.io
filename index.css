@@ -1,15 +1,7 @@
-#jieshao
-{
-    width:60%;
-}
-#guang
-{
-    -webkit-animation: guang1 5s; /* Safari 与 Chrome */
-}
-@-webkit-keyframes guang1 /* Safari 与 Chrome */
-{
-    0%   {fill: black;}
-    25%  {fill: yellow;}
-    50%  {fill: blue;}
-    100% {fill: black;}
-}
+nav{position:static;top:0px;left:0px;height:33px;width:100%;background-color:#00BFFF;}
+#daohang:hover{background-color:#FFA500;}
+#daohang{background-color:#00BFFF;font-size:25px;width:50px;font-family:Arial, Helvetica, sans-serif;}
+#beijin{width:100%;z-index:-1}
+#annv{z-index:1;border:2px solid black;border-radius:50px;width:80px;text-align:center;position: fixed;top:300px;left:1400px;}
+#annv:hover{background-color:#FFA500;}
+#banquan{background-color:#686868;text-align:center;}
